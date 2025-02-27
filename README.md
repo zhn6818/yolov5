@@ -468,3 +468,18 @@ For YOLOv5 bug reports and feature requests please visit [GitHub Issues](https:/
 </div>
 
 [tta]: https://docs.ultralytics.com/yolov5/tutorials/test_time_augmentation
+
+## 数据集可视化工具
+
+### datareview.py
+用于可视化检查数据集的标注质量。
+
+功能：
+- 读取数据集图片和对应的标签文件
+- 可视化显示边界框和类别标注
+- 支持YOLO格式的标注文件
+
+使用方法：
+1. 运行 `python datareview.py`
+2. 按任意键查看下一张图片
+3. 按'q'键退出程序
