@@ -28,8 +28,8 @@ def visualize_dataset():
     names = data['names']
     
     # 设置图片和标签路径
-    img_path = '/Users/zhanghaining/2022/dataset/WIDERFACE/train/images'
-    label_path = '/Users/zhanghaining/2022/dataset/WIDERFACE/train/labels'
+    img_path = '/Users/zhanghaining/2022/dataset/labelme/images'
+    label_path = '/Users/zhanghaining/2022/dataset/labelme/images'
     
     # 获取所有图片文件
     img_files = sorted(os.listdir(img_path))
