@@ -1,0 +1,22 @@
+# YOLOv5 🚀 by Ultralytics, GPL-3.0 license
+# Tong数据集配置文件 (扩充版)
+# 每个文件复制5份，数据量显著增加
+
+# 训练和验证数据集路径
+train: /Users/zhanghaining/2022/dataset/DataSet/tong/yolo_dataset_expanded/images/train
+val: /Users/zhanghaining/2022/dataset/DataSet/tong/yolo_dataset_expanded/images/train
+
+# 类别数量
+nc: 2
+
+# 类别名称
+names:
+  0: Error
+  1: Success
+
+# 数据集描述
+# 这是扩充后的Tong数据集，每个原始文件复制了5份
+# 数据来源于labelme标注，已转换为YOLO格式
+# 训练集和验证集按8:2比例分割，然后每个文件复制5份
+# 扩充后数据量显著增加，有助于改善训练效果
+# 针对长条形目标进行了优化
